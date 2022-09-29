@@ -1,4 +1,4 @@
-def call() {
+def call(String serverid) {
     sh "echo Uploading..."
     rtUpload (
         serverId: "${serverid}" ,
