@@ -1,16 +1,16 @@
 def upload(String serverid) {
     sh "echo Uploading..."
-    rtUpload (
-        serverId: "${serverid}" ,
-                    spec: """{
-                            "files": [
-                                    {
-                                        "pattern": "*.war",
-                                        "target": "libs-snapshot-local"
-                                    }
-                                ]
-                            }"""
-                )
+//     rtUpload (
+//         serverId: "${serverid}" ,
+//                     spec: """{
+//                             "files": [
+//                                     {
+//                                         "pattern": "*.war",
+//                                         "target": "libs-snapshot-local"
+//                                     }
+//                                 ]
+//                             }"""
+//                 )
 }
 
 def publish(String serverid) {
