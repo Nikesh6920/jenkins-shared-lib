@@ -1,4 +1,4 @@
-def upload(String serverid) {
+def upload() {
     sh "echo Uploading..."
 //     rtUpload (
 //         serverId: "${serverid}" ,
